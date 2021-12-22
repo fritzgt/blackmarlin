@@ -112,6 +112,7 @@ video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
 
 article,
@@ -363,6 +364,7 @@ pre {
 	margin: 0 auto;
 	max-width: calc(100% - #{_size(element-margin) * 2});
 	width: _size(container-width);
+
 
 	&.xsmall {
 		width: (_size(container-width) * 0.25);
