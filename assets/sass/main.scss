@@ -232,8 +232,9 @@ a {
 
 strong,
 b {
-	color: _palette(fg-bold);
+	// color: _palette(fg-bold);
 	font-weight: _font(weight-bold);
+	color: white;
 }
 
 em,
@@ -243,6 +244,7 @@ i {
 
 p {
 	margin: 0 0 _size(element-margin) 0;
+	color: white;
 }
 
 h1,
@@ -269,11 +271,13 @@ h1 {
 h2 {
 	font-size: 2em;
 	line-height: 1.35em;
+	color: white;
 }
 
 h3 {
 	font-size: 1.35em;
 	line-height: 1.5em;
+	color: white;
 }
 
 h4 {
@@ -470,12 +474,13 @@ header {
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 
 		&:after {
-			background: _palette(border);
+			// background: _palette(border);
 			content: '';
 			display: inline-block;
 			height: 1px;
 			margin-top: (_size(element-margin) * 0.75);
 			width: 6em;
+			background: gold;
 		}
 
 		h2,
@@ -1193,8 +1198,9 @@ button,
 	input[type="button"],
 	button,
 	.button {
-		box-shadow: inset 0 0 0 1px _palette(dark, border);
+		// box-shadow: inset 0 0 0 1px _palette(dark, border);
 		color: _palette(dark, fg-bold) !important;
+		box-shadow: inset 0 0 0 1px gold;
 
 		&:hover {
 			background-color: _palette(dark, border-bg);
@@ -1243,8 +1249,11 @@ button,
 	@include padding(6em, 0);
 
 	&.style1 {
-		// background: _palette(bg);
+		background: _palette(bg);
 		background-color: black;
+		// border-width: 1px;
+		// border-color: gold;
+		// border-style: solid;
 	}
 
 	&.style2 {
@@ -1299,13 +1308,14 @@ button,
 		}
 
 		&:after {
-			background: _palette(dark, border);
+			// background: _palette(dark, border);
 			content: '';
 			height: 100vh;
 			left: 50%;
 			position: absolute;
 			top: 100%;
 			width: 1px;
+			background: gold;
 		}
 	}
 
