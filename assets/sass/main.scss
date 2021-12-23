@@ -1243,7 +1243,8 @@ button,
 	@include padding(6em, 0);
 
 	&.style1 {
-		background: _palette(bg);
+		// background: _palette(bg);
+		background-color: black;
 	}
 
 	&.style2 {

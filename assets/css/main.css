@@ -2385,7 +2385,7 @@ button:disabled,
   padding: 6em 0 4em 0;
 }
 .main.style1 {
-  background: #fff;
+  background-color: black;
 }
 .main.style2 {
   background-color: #2f2e3b;
